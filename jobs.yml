@@ -3,13 +3,4 @@ jobs:
     type: manifest
     steps:
       - GET e2e-busybox-image
-
-  - name: end-to-end
-    type: manifest
-    steps:
-      - GET e2e-busybox-image
-
-  - name: end-to-end_master
-    type: manifest
-    steps:
-      - GET e2e-busybox-image
+      - PUT e2e-busybox-image
