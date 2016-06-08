@@ -4,3 +4,9 @@ jobs:
     steps:
       - GET e2e-busybox-image
       - PUT busybox1
+      
+  - name: end2end-job2
+    type: manifest
+    steps:
+      - GET e2e-busybox-image
+      - PUT busybox1
