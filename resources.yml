@@ -1,7 +1,7 @@
 resources:
   - name: e2e-busybox-image
     type: image
-    integration: dockerhub
+    integration: docker-test
     source:
       name: "library/busybox"
       isPull: true
@@ -9,7 +9,7 @@ resources:
       
   - name: busybox1
     type: image
-    integration: dockerhub
+    integration: docker-test
     source:
       name: "library/busybox"
       isPull: true
